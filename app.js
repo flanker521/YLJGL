@@ -11,7 +11,7 @@ app.use('/main', express.static('Manager'));
 var server = app.listen(3000, function () {
     var host = server.address().address;
     var port = server.address().port;
-    console.log('Example app listening at http://%s:%s', host, port);
+    console.log('Example app listening at the http://%s:%s', host, port);
 });
 
 var sqlite3Db;
